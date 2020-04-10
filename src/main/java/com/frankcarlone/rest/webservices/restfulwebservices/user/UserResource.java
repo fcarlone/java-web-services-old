@@ -41,7 +41,7 @@ public class UserResource {
 			throw new UserNotFoundException("id: " + id);
 		
 //		HATEOAS - return a link of the user
-		EntityModel<User> model = new EntityModel<>(user);
+		EntityModel<User> model = new EntityModel<User>(user);
 		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
 		model.add(linkTo.withRel("all-users"));
 		
