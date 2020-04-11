@@ -19,6 +19,7 @@
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value="/Users/frankcarloneiii/Documents/coding/Java/Java RESTful/restful-web-services"/>
+			<item value="/Users/frankcarloneiii/Documents/coding/Java/Java RESTful"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
